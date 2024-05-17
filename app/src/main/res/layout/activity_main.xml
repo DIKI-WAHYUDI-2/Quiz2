@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rental Iphone Murah Bangettt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iphone Tersedia"
+            >
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/radiogroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <RadioButton
+                android:id="@+id/promax15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 15 Pro Max"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/pro15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 15 Pro"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/promax14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 14 Pro Max"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/pro14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 14 Pro"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/promax13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iphone 14 Pro"
+                >
+            </RadioButton>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahan Barang"
+        >
+    </TextView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/airpod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air Pods"
+                android:layout_marginRight="20dp"
+                >
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/cassing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cassing">
+            </RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berapa hari rental">
+        </TextView>
+
+        <EditText
+            android:id="@+id/etHari"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            >
+        </EditText>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnpesan"
+        android:layout_marginTop="50dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Pesan"
+        android:layout_gravity="center"
+        >
+    </Button>
+
+
+</LinearLayout>
